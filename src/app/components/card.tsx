@@ -76,12 +76,14 @@ const ProductCard = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                    
-                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
-                    
-                    
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>
@@ -95,9 +97,14 @@ const ProductCard = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>

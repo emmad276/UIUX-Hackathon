@@ -7,6 +7,7 @@ import card4 from "@/app/public/card4.png"
 import { Inter } from 'next/font/google'
 import addcart1 from "@/app/public/addcart1.png"
 import addcart2 from "@/app/public/addcart2.png"
+import recard from "@/app/public/recard.png"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -78,12 +79,14 @@ const OurProducts = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                    
-                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
-                    
-                    
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>
@@ -97,9 +100,14 @@ const OurProducts = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>
@@ -123,14 +131,13 @@ const OurProducts = () => {
             </div>
             <div className="flex ">
                     <div className='w-[81%]'>
-                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
                     </div>
                     <div>
-                        <Image className='mt-3' src={addcart1} alt='add cart1'></Image>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
                     </div>
             </div>
-            
             </div>
 
         {/* Card 2 */}
@@ -166,12 +173,14 @@ const OurProducts = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                    
-                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
-                    
-                    
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>
@@ -185,9 +194,14 @@ const OurProducts = () => {
                 ></Image>
                 
             </div>
-            <div className="w-[81%]">
-                <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px] h-[21px]`}>Library Stool Chair</h3>
-                <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold  `}>$20</p>
+            <div className="flex ">
+                    <div className='w-[81%]'>
+                    <h3 className={`mt-3 ${inter.className} font-normal text-[16px] leading-[20.08px]  h-[21px]`}>Library Stool Chair</h3>
+                    <p className={`mt-2 w-[35px] h-[20px] gap-[4px] ${inter.className} text-[18px] leading-[19.8px] font-bold `}>$20</p>
+                    </div>
+                    <div>
+                        <Image className='mt-3' src={addcart2} alt='add cart1'></Image>
+                    </div>
             </div>
             
             </div>

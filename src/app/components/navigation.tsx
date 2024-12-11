@@ -48,24 +48,26 @@ const Navigation = () => {
           </div>
         </div>
       {/* Middle */}
-      <div className="bg-[#F0F2F3] w-full h-auto flex justify-between items-center py-[20px] px-4 sm:px-[50px] md:px-[100px] lg:px-[200px] xl:px-[300px]">
-        {/* Logo Section */}
-        <div className="flex-shrink-0">
-          <Image 
-            src={logo} 
-            alt="logo" 
-            className="w-[160px] h-auto  md:w-[180px] " 
-          />
-        </div>
+      <div className=" bg-[#F0F2F3] w-full h-auto flex justify-between items-center py-[20px] px-4 sm:px-[50px] md:px-[100px] lg:px-[200px] xl:px-[300px]">
+        
+          {/* Logo Section */}
+          <div className="flex-shrink-0">
+            <Image 
+              src={logo} 
+              alt="logo" 
+              className="w-[160px] h-auto  md:w-[180px] " 
+            />
+          </div>
 
-        {/* User Links Section */}
-        <div className="flex-shrink-0">
-          <Image 
-            src={user} 
-            alt="user-link" 
-            className="w-[100px]  md:w-[120px] h-auto" 
-          />
-        </div>
+          {/* User Links Section */}
+          <div className="flex-shrink-0">
+            <Image 
+              src={user} 
+              alt="user-link" 
+              className="w-[100px]  md:w-[120px] h-auto" 
+            />
+          </div>
+        
       </div>
 
 
